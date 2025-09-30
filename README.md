@@ -1,8 +1,3 @@
-Got it 👍.
-You want a Student Marks Calculator program in C using structure — clean, simple, and without errors.
-
-Here’s a working example:
-
 #include <stdio.h>
 
 // Define structure
