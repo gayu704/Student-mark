@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 
 // Define structure
@@ -31,6 +33,19 @@ int main() {
     }
 
     // Calculate average
-    s.average = s.total / 5.0 
-}
+    s.average = s.total / 5.0;
 
+    // Output result
+    printf("\n--- Student Report ---\n");
+    printf("Name: %s\n", s.name);
+    printf("Roll No: %d\n", s.roll);
+    printf("Total Marks: %.2f\n", s.total);
+    printf("Average Marks: %.2f\n", s.average);
+
+    if (s.average >= 50)
+        printf("Result: PASS\n");
+    else
+        printf("Result: FAIL\n");
+
+    return 0;
+}
