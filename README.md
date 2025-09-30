@@ -1,6 +1,10 @@
-// Define structure
+
+
+#include <studio.h>
+
+ // Define structure
 struct Student {
-    char name[50];
+    char name[50];//
     int roll;
     float marks[5];   // marks in 5 subjects
     float total;
